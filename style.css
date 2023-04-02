@@ -51,8 +51,9 @@ main{
     bottom: 15px;
     text-align: center;
     font-size: 25px;
-    transition: margin-right 2s, color 1s;
+    transition: margin-right 2s ease-in-out;
 }
+
 pre {
     position: relative;
     font-size: 15px;
