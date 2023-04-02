@@ -31,6 +31,9 @@ main{
     align-items: center;
     margin-bottom: 50px;
 }
+.box p {
+    text-align: center;
+}
 .code-snippet{
     height:300px;
     background: rgb(214,63,251);
@@ -48,6 +51,7 @@ main{
     bottom: 15px;
     text-align: center;
     font-size: 25px;
+    transition: margin-right 2s, color 1s;
 }
 pre {
     position: relative;
@@ -55,6 +59,7 @@ pre {
     display: inline;
     right: 170px;
     top: 30px;
+    user-select: auto;
 }
 footer {
     color:var(--pink);
